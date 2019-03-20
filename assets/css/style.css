@@ -9,11 +9,11 @@ header{
     text-align: center;
     margin: 108px 20px 0px 20px;
     padding: 20px 20px 20px 20px;
-    border-radius: 5px ;
     opacity: .9;
     display: inline-block;
     float:left;
-    border-bottom: solid 5px red;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 
    
 }

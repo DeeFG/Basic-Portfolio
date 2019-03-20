@@ -1,53 +1,50 @@
-/* ----- */
-header{
-    background-color:#ffe9dc;
-    color: #c99789;
-    font-size: 30px;
-    font-weight:bold;
-    height: 30px;
-    width: auto;
-    text-align: center;
-    margin: 108px 20px 0px 20px;
-    padding: 20px 20px 20px 20px;
-    opacity: .9;
-    display: inline-block;
+/* ---name header-- */
+
+.top {
+    height:100px;
+    background-color: white;
+}
+.innertop {
+    width: 960px;
+    margin: 0 auto;
+    border-bottom-color: solid 5px red;
+
+}
+.name {
+    background:teal;
+    font: white;
     float:left;
+    padding: 0px 10px 8px 10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-
-   
 }
-/* ----- */
+
+/* ---navigation bar-- */
+
 .nav{
-    text-align:right;
-    font-size: 18px;  
-    margin: 0px 10px -5px 0px;
-    padding: 70px 0px 0px 0px;
-    height: 100% ;
     float:right;
-    
-   
+    padding-top:55px;  
 }
 
 /* unvisited link */
- a:link {
+a:link {
     color:#bf6a53;
-  }
+}
   
   /* visited link */
-  a:visited {
+a:visited {
     color: gray;
-  }
+}
   
   /* mouse over link */
-   a:hover {
+a:hover {
     color: purple;
-  }
+}
   
-  /* selected link */
-  a:active {
+ /* selected link */
+a:active {
      color: purple;
-  } 
+} 
 
 button {
     background-color: #ffe9dc;
@@ -55,15 +52,15 @@ button {
     font-weight: bold;
     opacity: .7;
     display: inline-flexbox;
-    border-radius: 5px;
     border-style: solid ; 
-    height: 30px;
-    width: 100%;
-    position: static;
-    box-align: right;
-    display: block;
-    float:left;
+    margin-right: 30px;
+    width: 60px;
+    height:30px;
+    font: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
+
 
 button:hover {
     background-color: #c99789;
@@ -72,8 +69,8 @@ button:hover {
 
 hr {
     display: block;
-    margin-top: 50px;
-    margin-bottom: 70px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
@@ -94,29 +91,29 @@ hr {
 .container{
     background-color:#ffe9dc;
     color: #c99789;
-    height: 300px;
-    width: 600PX;
-    padding: 0px 30px 0px 30px ;
-    margin: 0px 20px 10px 200px;
     text-align: left;
     border-radius: 7px ;
     opacity: .9;
     float: left;
-    overflow:auto;   
+    overflow:auto; 
+    height:400px;
+    width: 960px;
+    margin: 0 auto;  
+    padding: 0 auto;
 }
 
 .containercontact{
     background-color:#ffe9dc;
     color: #c99789;
-    height: 300px;
-    width: 600px;
-    padding: 0px 30px 0px 30px ;
-    margin: 0px 20px 10px 400px;
     text-align: center;
     border-radius: 7px ;
     opacity: .9;
     float: left;
-    overflow:auto;   
+    overflow:auto; 
+    height:400px;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: -100px;
 }
 
 h2{ 

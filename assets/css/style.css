@@ -1,3 +1,4 @@
+/* ----- */
 header{
     background-color:#ffe9dc;
     color: #c99789;
@@ -12,13 +13,15 @@ header{
     opacity: .9;
     display: inline-block;
     float:left;
+    border-bottom: solid 5px red;
+
    
 }
-
+/* ----- */
 .nav{
     text-align:right;
     font-size: 18px;  
-    margin: 0px 10px 0px 0px;
+    margin: 0px 10px -5px 0px;
     padding: 70px 0px 0px 0px;
     height: 100% ;
     float:right;
@@ -160,19 +163,9 @@ p {
     position:auto; 
 }
 
-.line {
-    background-color: #dec3c3;
-    text-align: center;
-    position: fixed;
-    height:50px;
-    left:0;
-    bottom:0;
-    width:100%;
-
-}
-
 footer {
     background-color: #c99789;
+    border-top: solid 5px #dec3c3;
     text-align: center;
     position: fixed;
     height:30px;

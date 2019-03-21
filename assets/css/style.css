@@ -147,14 +147,19 @@ p {
     text-align: left;
     color: #777777;
 }
-
+.clearfix::after {
+    content:"";
+    display:block;
+    clear: both
+}
 .form { 
     color:#77777;
     text-align: center;
     font-size: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 30px ;
 
 }
+
 
 #inputbutton {
     color: #fffff; 
